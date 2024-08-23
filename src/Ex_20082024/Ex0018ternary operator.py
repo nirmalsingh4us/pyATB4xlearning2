@@ -11,5 +11,5 @@
 User_age = int(input("Enter your age"))
 if User_age > 18:
     print("Eligible for play cricket match ")
-else :
-    print ("Not play the match")
+else:
+    print("Not play the match")
