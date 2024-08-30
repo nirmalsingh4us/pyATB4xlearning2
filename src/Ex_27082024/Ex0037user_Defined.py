@@ -19,7 +19,8 @@ def greet_by_name(name):
 
 greet_by_name("Nirmal singh")
 
-#3.  # no return type and with default argument
+
+# 3.  # no return type and with default argument
 
 
 def greet_by_default_arg(name="Mehtab"):

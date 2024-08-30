@@ -7,6 +7,8 @@
 # defination
 def greet():
     print("Hello!, there")
+
+
 # calling part
 greet()
 greet()
