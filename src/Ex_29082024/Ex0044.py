@@ -7,5 +7,5 @@ print(result)
 result1 = sum_three(1, 2)
 print(result1)
 
-result3 = sum_three(c=45, b=22, a=100)
+result3 = sum_three(c=100, b=22, a=100)
 print(result3)
