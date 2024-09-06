@@ -3,19 +3,18 @@ class Dog:
     name = None
     breed = None
     color = None
+    sleep = None
     # B
 
 
 def __init__(self, name, breed):
-
-
     print("called,object is created")
     self.name = name
     self.breed = breed
 
 
 def sleep(self):
-    print("Sleeping", self.name)
+    print("Sleeping, + self.name")
 
 
 def bark(self):
@@ -28,10 +27,10 @@ def eat(self, food):
 
 # Object reference
 
-dog1 = Dog
-print(dog1.name)
+dog1 = Dog()
 dog1.name = "Tyson"
-dog1.sleep()
+print(dog1.name)
+
 """
 print("------------------")
 dog2 = Dog
