@@ -7,7 +7,7 @@ class VWOloginpage:
         self.password = password_arg
 
     def login_confirm(self):
-        if self.email == "nirmal@gmail.com" and self.password == "abc123":
+        if self.email == "NS_TEST@gmail.com" and self.password == "abc123":
             print("Allowed to login!")
         else:
             print("Not Allowed !")

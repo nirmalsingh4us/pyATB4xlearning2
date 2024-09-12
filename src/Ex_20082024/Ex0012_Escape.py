@@ -6,7 +6,7 @@ print("hello\bworld") # \b -> backspace
 
 #For eg
 
-#dir='c:\nirmal\n.txt'
+#dir='c:\NS_TEST\n.txt'
 dir=r"(c:\nirmal\n.txt)"
 # here r is used as row to get proper directory name we are using here raw string
 print(dir)
